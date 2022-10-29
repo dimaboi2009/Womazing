@@ -38,13 +38,28 @@
             <li class="cart__item">Всего</li>
         </ul>
         <div class="cart__description">
-            <button class="class__delete">x</button>
+          <div class="cart__description-main">
+            <button class="cart__delete">x</button>
             <img src="./img/collection/1b.png" alt="" class="cart_img">
+          </div>
             <p class="cart__name">Футболка USA</p>
             <p class="cart__price">$129</p>
             <input type="number" class="cart__amount" value="1">
             <p class="cart__price-full">$129</p>
         </div>
+        <form class="cart__cupon">
+          <div class="cart__cupon-inner">
+            <label class="cart__lable">
+              <input 
+              type="text"
+              class="cart__input"
+              placeholder="Введите купон"
+              />
+            </label>
+            <button class="cart__button">Применить купон</button>
+          </div>
+          <button class="cart__button">Обновить купон</button>
+        </form>
       </div>
     </section>
 
